@@ -1,32 +1,7 @@
-<?
-/*********************************************************************
+<?php
 
-  BlueMamba is a software package created by Travis Schanafelt
-  Copyright 2006-2016 Travis Schanafelt, All Rights Reserved
-
-  This program is free software: you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation, either version 3 of the License, or
-  (at your option) any later version.
-
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
-
-  Author:   Travis Schanafelt
-
-    Modified: 09/18/2008
-              
-    Document: conf/login_actions.php
-              
-    Function: Reconfigures webmail at each login
-              Used for rebuilding vital settings if lost
-              
-*********************************************************************/
-
-include_once("../include/icl.php");
-include_once("../include/cache.php");
+include_once(DOCUMENT_ROOT . "/inc/BlueMamba/icl.php");
+include_once(DOCUMENT_ROOT . "/inc/BlueMamba/cache.php");
 
 $conn = iil_Connect($host, $user_name, $password, $AUTH_MODE);
 if($conn)
@@ -34,11 +9,10 @@ if($conn)
 	// Prepends newfolder path with rootdir as necessary
 	$newfolders = array
 	(
-		'0' => "INBOX.Sent",
-		'1' => "INBOX.Unsent",
-		'2' => "INBOX.Drafts",
-		'3' => "INBOX.Quarantine",
-		'4' => "INBOX.Trash"
+		'0' => "Sent",
+		'2' => "Drafts",
+		'3' => "Spam",
+		'4' => "Trash"
 	);
 
 	// Create Default Folders

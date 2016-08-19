@@ -1,0 +1,138 @@
+
+body {
+	background-color:#FFFFFF;
+	margin:0px;
+	padding:0px;
+}
+
+
+td,table {
+	font-family:Open Sans, Arial, sans-serif;
+	font-size: 14px;
+	color: #333333;
+}
+
+.invoice {
+  border:1px solid #DDD; 
+  padding:60px 40px 40px 40px; 
+  position:relative;
+}
+.invoice .status {
+  position:absolute; 
+  top:-5; left:-5;
+}
+
+.invoice .headercell {
+  font-weight:bold;
+  background-color:#efefef;
+}
+.invoice .headercellsmall {
+	font-family:Open Sans, Arial, sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  padding:5px;
+  background-color:#efefef;
+}
+.invoice .headercellitem {
+	font-family:Open Sans, Arial, sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  padding:5px;
+  background-color:#efefef;
+}
+.invoice .headercelltotal {
+	font-family:Open Sans, Arial, sans-serif;
+  font-size:14px;
+  font-weight:bold;
+  padding:5px;
+  background-color:#efefef;
+}
+
+.invoice .border {
+	border:1px solid #DDD;
+}
+.invoice .border_top {
+	border-top:1px solid #DDD;
+}
+.invoice .border_bottom {
+	border-bottom:1px solid #DDD;
+}
+.invoice .border_right {
+	border-right:1px solid #DDD;
+}
+.invoice .border_left {
+	border-left:1px solid #DDD;
+}
+
+.invoice .small {
+ font-size:12px;
+}
+
+.invoice .alignright {
+  text-align:right;
+}
+
+.invoice input, .invoice .input, .invoice textarea, .invoice select {
+	font-family:Open Sans, Arial, sans-serif;
+  width:100%;
+	padding:5px;
+	border:none;
+	border-radius: 2px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+.invoice .inputrequire {
+	font-family:Open Sans, Arial, sans-serif;
+  width:100%;
+	padding:5px;
+	border:none;
+	background:#ffefef;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+.invoice .smallinput {
+	font-family:Open Sans, Arial, sans-serif;
+  width:100%;
+  font-size:12px;
+	padding:5px;
+	border:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+.invoice .iteminput {
+	font-family:Open Sans, Arial, sans-serif;
+	padding:5px;
+	border:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+.invoice .totalinput {
+	font-family:Open Sans, Arial, sans-serif;
+	padding:5px;
+	border:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+
+@media (max-width: 750px) {
+  .invoice input, .invoice .input, .invoice textarea, .invoice select {
+    padding:10px;
+  }
+  .invoice .inputrequire {
+    padding:10px;
+  }
+  .invoice .smallinput {
+    padding:10px;
+  }
+  .invoice .iteminput {
+    padding:10px;
+  }
+  .invoice .totalinput {
+    padding:10px;
+  }
+}

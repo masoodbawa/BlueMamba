@@ -1,0 +1,253 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+
+
+a, 
+a:link,
+a:visited {
+  color: #4b73b2;
+  text-decoration: none
+}
+a:hover {
+  color: #4b73b2;
+  text-decoration: underline
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  font-size: 12px;
+  margin: 15px;
+}
+
+td, input {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+.textbox, select, textarea {
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  background: #fff;
+  font-size: 14px;
+  border: thin solid #E9E9E9;
+  padding:5px;
+}
+
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px;
+}
+
+table
+{
+  font-size: 14px;
+  color: #333333;
+}
+
+.bigTitle
+{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.small
+{
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #333333;
+}
+
+a.tblheader:link, 
+a.tblheader:active, 
+a.tblheader:visited
+{
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+}
+a.tblheader:hover
+{
+  text-decoration: underline;
+}
+.tblheader
+{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.hilite
+{
+
+}
+
+.menuText
+{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+a.menuText:link, 
+a.menuText:active, 
+a.menuText:visited
+{
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+a.menuText:hover
+{
+  text-decoration: underline;
+}
+
+.folderList, 
+.folderList a:link,
+.folderList a:active, 
+.folderList a:visited {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #717171;
+}
+
+.mainHeading
+{
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+}
+a.mainHeading:link, 
+a.mainHeading:active, 
+a.mainHeading:visited
+{
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+}
+a.mainHeading:hover
+{
+  text-decoration: underline;
+}
+
+.mainHeadingSmall
+{
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  font-size: 12px;
+  border: 1px solid #FFFFFF;
+  padding: 0px 3px;
+}
+a.mainHeadingSmall:link,
+a.mainHeadingSmall:visited,
+a.mainHeadingSmall:active
+{
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  font-size: 12px;
+}
+a.mainHeadingSmall:hover
+{
+  text-decoration: none;
+  border: 2px solid #FFFFFF;
+  padding: 0px 2px;
+}
+
+.mainLight
+{
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+}
+a.mainLight:link, 
+a.mainLight:active, 
+a.mainLight:visited,
+a.mainLight:hover
+{
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+}
+
+.mainLightSmall
+{
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  font-size: 12;
+  overflow: visible;
+}
+a.mainLightSmall:link,
+a.mainLightSmall:visited,
+a.mainLightSmall:active,
+a.mainLightSmall:hover
+{
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  font-size: 12;
+}
+
+.mainToolBar
+{
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  font-size: 12;
+}
+a.mainToolBar:link,
+a.mainToolBar:visited,
+a.mainToolBar:active
+{
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  font-size: 12;
+}
+a.mainToolBar:hover
+{
+  text-decoration: none;
+}
+
+
+/* Buttons */
+.button,
+button {
+	background-color:#0174DF;
+	border-radius:2px;
+	border:1px solid #0174DF;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Open Sans', Arial, sans-serif;
+	font-size:14px;
+	padding:6px 12px;
+	text-decoration:none;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-khtml-border-radius:2px;
+  transition: all 0.38s ease-in;
+}
+button:hover {
+  background-color:#333333;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+@media (max-width: 750px) {
+  button {
+    font-size:16px;
+    padding:12px 22px;
+  }
+}
+
+
+a.txlink        {text-decoration:none}
+a.txlink:link   {color:#FFFFFF; font-size:12; padding: 1px 5px;}
+a.txlink:visited{color:#FFFFFF; font-size:12; padding: 1px 5px;}
+a.txlink:hover  {color:#000000; font-size:12; background-color:#FFFFFF; padding: 1px 5px; text-decoration:none;}

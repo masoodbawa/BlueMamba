@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.login-page {
+  width: 23em;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+@media (max-width: 360px) {
+  .login-page {
+    width: 100%;
+    max-width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #F7F9FA;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2.5em;
+  text-align: center;
+	border-radius:.3em;
+}
+.form input {
+  font-family: "Open Sans", sans-serif;
+  outline: 0;
+  background: #fff;
+  width: 100%;
+  border: 0;
+  margin: 0 0 .7em;
+  padding: .9em;
+  box-sizing: border-box;
+  font-size: 1em;
+  border: 1px solid #eee;
+	border-radius:.2em;
+}
+.form button {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #0174DF;
+  width: 100%;
+  border: 0;
+  padding: 1em;
+  color: #FFFFFF;
+  font-size: 1em;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+	border-radius:.2em;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #222;
+}
+.form .message {
+  margin: 2em 0 0;
+  color: #b3b3b3;
+  font-size: .8em;
+}
+.form .message a {
+  color: #0174DF;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+
+
+.logo {
+  margin: 0 auto;
+  padding-bottom: 1.4em;
+  text-align: center;
+}
+.logo img {
+  width: 100%;
+}
+
+.error_container {
+  padding-bottom: 1em;
+}
+.error_message {
+  background-color: #cc0000; 
+  color: #fff; 
+  padding: .5em;
+}
+
+
+.language {
+  float:right;
+  font-family: "Open Sans", sans-serif;
+  outline: 0;
+  color: #888;
+  background: #fff;
+  border: 0;
+  margin-top: .7em;
+  box-sizing: border-box;
+  font-size: .8em;
+  border: none;
+}

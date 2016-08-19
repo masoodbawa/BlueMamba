@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+  font-family: "Open Sans", sans-serif;
+  overflow-y: hidden ! important;
+  overflow-x: hidden ! important;
+  background-image: url('/images/signup/woman2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.signup-page {
+  width: 23em;
+  padding: 6% 0 0;
+  margin: auto;
+}
+.signup-page-left {
+  width: 23em;
+  padding: 6% 40% 6% 0;
+  margin: auto;
+}
+.signup-page-right {
+  width: 23em;
+  padding: 6% 0 6% 40% ;
+  margin: auto;
+}
+
+@media (max-width: 360px) {
+  .signup-page {
+    width: 100%;
+    max-width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #F7F9FA;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2.5em;
+  text-align: center;
+	border-radius: .5em;
+}
+.form input,
+.form select {
+  font-family: "Open Sans", sans-serif;
+  outline: 0;
+  background: #fff;
+  width: 100%;
+  border: 0;
+  margin: 0 0 .7em;
+  padding: .7em;
+  box-sizing: border-box;
+  font-size: 1em;
+  border: 1px solid #eee;
+	border-radius:.3em;
+}
+.form button {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #0174DF;
+  width: 100%;
+  border: 0;
+  padding: 1em;
+  color: #FFFFFF;
+  font-size: 1em;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+	border-radius:.3em;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #222;
+}
+.form .register-form {
+  display: none;
+}
+
+.inputrequire {
+	border:1px solid #ff9d9d !important;
+}
+
+.logo {
+  margin: 0 auto;
+  padding: 1.1em 0;
+  text-align: center;
+}
+.logo img {
+  width:70%;
+}
+
+.offer {
+  padding-bottom:10px; 
+}
+.legal {
+  color:#999; 
+  font-size:10px !important;
+  padding-top:10px; 
+}
+
+.haveaccount {
+  margin: 5px 0;
+  text-align: center;
+  color: #b3b3b3;
+  font-size: .8em;
+}
+.haveaccount a, 
+.haveaccount a:link, 
+.haveaccount a:visited {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+.haveaccount a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.language {
+  float:right;
+  font-family: "Open Sans", sans-serif;
+  outline: 0;
+  color: #aaa;
+  background: transparent;
+  border: 0;
+  margin-top: .7em;
+  box-sizing: border-box;
+  font-size: .8em;
+  border: none;
+}
+
+#signup_login {
+  
+}
+#signup_info {
+  display: none;
+}
+#signup_address {
+  display: none;
+}
+#signup_terms {
+  display: none;
+}
+#signup_creating_account {
+  display: none;
+}
+#signup_account_ready {
+  display: none;
+}
+
+
+a, 
+a:link, 
+a:visited {
+  font-family:'Open Sans', Arial, sans-serif;
+  color: #0174DF;
+  text-decoration:none;
+}
+a:hover {
+  color: #AAA;
+  text-decoration:underline;
+}

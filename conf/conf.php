@@ -1,31 +1,10 @@
-<?
-/*********************************************************************
+<?php
 
-  BlueMamba is a software package created by Travis Schanafelt
-  Copyright 2006-2016 Travis Schanafelt, All Rights Reserved
 
-  This program is free software: you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation, either version 3 of the License, or
-  (at your option) any later version.
-
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
-
-  Author:   Travis Schanafelt
-
-    Modified: 09/19/2008
-              
-    Document: conf/conf.php
-              
-    Function: Configurations
-
-*********************************************************************/
-
+define("DOCUMENT_ROOT", "/cust/schanaco.com/mail");
+  
 // Global Conf
-$ROOTDIR            = "INBOX";
+$ROOTDIR            = "";
 $CHARSET            = "ISO-8859-1";
 $STAY_LOGGED_IN     = true;
 $TRUST_USER_ADDRESS = true;
@@ -36,17 +15,16 @@ $DATE_FORMAT = "m/d/Y h:i A";
 
 
 // Theme Settings, Use Server Name
-$DEFAULT_THEME = "bluemamba.org";
+$DEFAULT_THEME = "schanaco.com";
 $DOMAIN_THEME  = "";	// Leave Blank to Auto Select
 $SPLASH_THEME  = "login";
 
 
 // Users Directories
-$UPLOAD_DIR     = "../data/uploads/";
-$CACHE_DIR      = "../data/cache/";
-$USER_DIR       = "../data/users/";
-$SESSION_DIR    = "../data/sessions/";
-$TMDA_DIR       = "../data/tmda/";
+$UPLOAD_DIR     = DOCUMENT_ROOT . "/docs/uploads/";
+$CACHE_DIR      = DOCUMENT_ROOT . "/data/cache/";
+$USER_DIR       = DOCUMENT_ROOT . "/data/users/";
+$SESSION_DIR    = DOCUMENT_ROOT . "/data/sessions/";
 
 
 // Outgoing Mail
@@ -58,7 +36,7 @@ $SMTP_PASSWORD  = "";
 
 // Login Host
 $LOGIN_HOST     = "mail.yourdomain.com";
-$LOGIN_PORT     = "143";
+$LOGIN_PORT     = "993";
 
 
 // Authintication Mode
@@ -68,13 +46,9 @@ $AUTH_MODE["smtp"] = "";
 
 
 // Dictionary
-$CHECK_SPELLING = true;
+$CHECK_SPELLING = false;
 $SPELLING_LANG  = "en";
 $ASPELL_PATH    = "/usr/bin/aspell";
-
-
-// TMDA Filtering
-$TMDA_ENABLED   = false;
 
 
 // Spam Prevention
@@ -119,15 +93,12 @@ if(!$DOMAIN_THEME)
 	}
 	
 	
-	if(!is_file("themes/$DOMAIN_THEME/conf.php"))
-	{
+	if(!is_file(DOCUMENT_ROOT . "/images/themes/$DOMAIN_THEME/conf.php")) {
 		$DOMAIN_THEME = $DEFAULT_THEME;
 	}
 }
 
 // Load Domain Theme Configs
-include_once("themes/$DOMAIN_THEME/conf.php");
+include_once(DOCUMENT_ROOT . "/images/themes/$DOMAIN_THEME/conf.php");
 
-$SPLASH_THEME = "themes/$DOMAIN_THEME/$SPLASH_THEME";
-
-?>
+$SPLASH_THEME = DOCUMENT_ROOT . "/images/themes/$DOMAIN_THEME/$SPLASH_THEME";
