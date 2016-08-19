@@ -1,0 +1,36 @@
+{
+  "pagetitle": "Customer",
+  "pageurl": "customer",
+  "new_customer": "New Customer",
+  "list": {
+    "name": "Name",
+    "company": "Company",
+    "email": "Email",
+    "contacts": "Contacts",
+    "phone": "Phone"
+  },
+  "formdata": {
+    "identity": "Identity",
+    "referral": "Referral",
+    "notes": "Notes",
+    "active": "Active"
+  },
+  "info": {
+    "tab_title": "Information"
+  },
+  "note": {
+    "tab_title": "Notes",
+    "name": "Name"
+  },
+  "purchase": {
+    "tab_title": "Purchases",
+    "overall": "Total of Customer's Purchases"
+  },
+  "invoice": {
+    "tab_title": "Invoices",
+    "overall": "Total of Customer's Invoices"
+  },
+  "subscription": {
+    "tab_title": "Subscriptions"
+  }
+}

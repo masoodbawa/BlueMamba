@@ -1,0 +1,36 @@
+{
+  "pagetitle": "Sign Up",
+  "pageurl": "signup",
+  "firstname": "First Name",
+  "email": "Email",
+  "password": "Password",
+  "country": "Country",
+  "slogan": "Simplify Your Invoicing &amp; Payments",
+  "free_trial": "Free 30 day trial!",
+  "signup_button": "Sign Up",
+  "terms_legal": "By clicking Sign Up, you agree to the <a href='[terms_legal]' target='_blank'>User Agreement</a>",
+  "have_account": "Have an account?",
+  "login_account": "Log In",
+  "account_thanks": "Thanks for signing up!",
+  "wait_creation": "Please wait while your account is being created.",
+  "account_ready": "Your account is ready!",
+  "notice_email": {
+    "subject": "Welcome to [brand]",
+    "thankyou": "Thank you for signing up",
+    "getstarted": "To get started you may login at:",
+    "email": "Email:",
+    "password": "Password:"
+  },
+  "error": {
+    "firstname_blank": "Please enter your first name.",
+    "email_taken": "That email is already in use.",
+    "email_novalid": "Please enter a valid email address.",
+    "password_nomatch": "Passwords do not match.",
+    "password_blank": "Please enter a password.",
+    "password_short": "Please select a passsword at least 8 characters long.",
+    "create_user": "We had an error creating your account. Please contact technical support.",
+    "create_member": "We had an error creating your account. Please contact technical support.",
+    "create_database": "We had an error creating your account. Please contact technical support.",
+    "email_notice": "We were unable to email you about your new account. Please contact technical support."
+  }
+}

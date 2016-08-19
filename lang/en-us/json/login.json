@@ -1,0 +1,14 @@
+{
+  "pagetitle": "Log In",
+  "pageurl": "login",
+  "username": "Email/Username",
+  "password": "Password",
+  "login_button": "Log In",
+  "not_registered": "Not registered?",
+  "create_account": "Create an account.",
+  "error": {
+    "expire": "Session Expired",
+    "incorrect_login": "Incorrect Login",
+    "inactive": "Membership Inactive"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dashboard": "Dashboard",
+  "register": "Register",
+  "purchase": "Purchase",
+  "invoice": "Invoice",
+  "subscription": "Subscription",
+  "product": "Product",
+  "customer": "Customer",
+  "report": "Report"
+}
